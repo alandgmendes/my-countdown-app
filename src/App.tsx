@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <div>
         <img src={image} alt="hardy triste com essa vida, essa dor, essa AGONIA" />
-        <h1>Quando esse sofrimento vai acabar?</h1>
+        <h1>Quando esse sofrimento da T5 vai acabar?</h1>
         <p>{timeRemaining}</p>
       </div>
     </div>

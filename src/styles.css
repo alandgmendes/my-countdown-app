@@ -110,3 +110,7 @@
     }
   }
   
+  img {
+    width: 24%; /* Reduce image width to 80% */
+    height: auto; /* Maintain aspect ratio */
+  }
