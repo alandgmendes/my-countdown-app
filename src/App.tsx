@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import image from '../public/hardy.jpg';
 
 function App() {
   const [timeRemaining, setTimeRemaining] = useState('');
@@ -22,7 +22,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Ansiômetro</h1>
+        <img src={image} alt="hardy triste com essa vida, essa dor, essa AGONIA" />
+        <h1>Quando esse sofrimento vai acabar?</h1>
         <p>{timeRemaining}</p>
       </div>
     </div>
