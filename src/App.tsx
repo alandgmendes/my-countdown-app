@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 function App() {
   const [timeRemaining, setTimeRemaining] = useState('');
 
@@ -20,8 +21,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Chega logo, dia 4 de junho!</h1>
-      <p>{timeRemaining}</p>
+      <div>
+        <h1>Ansiômetro</h1>
+        <p>{timeRemaining}</p>
+      </div>
     </div>
   );
 }
